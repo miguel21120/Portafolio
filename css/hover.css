@@ -1,0 +1,111 @@
+.proyecto a:hover{
+    margin: 0 0 0 20px;
+ height: 3em;
+    /* background:radial-gradient(circle, #2B0055 0%, orange 100%); */
+    background-color: rgba(42, 0, 85, 0.726);
+    border-radius: 5em;
+    color: white;
+}
+
+.menu .men:hover{
+    background-color: rgba(42, 0, 85, 0.541);
+    border-radius: 1em;
+}
+
+.men a:hover{
+color: white;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .project-item:hover .info {
+    display: block;
+    color: orangered;
+  }
+
+@media(max-width: 1440px){
+
+    header img{
+        left: 3em;
+    }
+.menu ul{
+   
+    list-style: none; 
+    margin-left: 15em;
+    margin-top: 1em;
+}
+
+
+.menu a{
+    padding: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media(max-width: 1280px){
+
+    header img{
+        left: -2em;
+    }
+.menu ul{
+   
+    list-style: none; 
+    margin-left: 10em;
+    margin-top: 1em;
+}
+
+
+.menu a{
+    padding: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+}
+
+@media(max-width: 920px){
+
+.proyecto{
+    visibility: hidden;
+    
+}
+
+header img{
+margin-left: 4em;
+}
+.menu ul{
+   
+    list-style: none; 
+    margin-left: 10em;
+    margin-top: 1em;
+}
+
+
+}
+@media(max-width: 720px){
+
+header img{
+        margin-left: 3em; 
+    }
+
+    .menu ul{
+   
+        list-style: none; 
+        margin-left: 5.5em;
+        margin-top: 1em;
+    }
+
+}

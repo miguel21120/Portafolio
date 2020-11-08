@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div style="padding-top: 10px">
+          <a href=""><img src="img/logo-white.svg" height="30" alt="" /></a>
+        </div>
+        <div>Protección galardonada</div>
+      </nav>
+    </header>
+
+    <section id="banner">
+      <div>
+        <h1>McAfee® Total Protection</h1>
+        <p class="cover">
+          Incluye: antivirus premium, navegación web segura y optimización del
+          PC.
+        </p>
+        <p class="price">29,95€*</p>
+        <p class="discount"><span>69,95€</span> (40,00€ DE DESCUENTO)</p>
+        <a href="#" class="btn-comprar">Comprar ahora</a>
+        <p class="comment">
+          * El precio mostrado es el del primer año. Vea los detalles de la
+          oferta más abajo.<br />
+          Windows® | macOS® | Android™ | iOS®
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <article id="main-article">
+        <div class="slogan-1">
+          <h2>Es mucho más que un software antivirus, es tranquilidad</h2>
+          <p>
+            Defiéndase y proteja a toda su familia frente a los ataques de
+            virus, malware, spyware y ransomware más recientes controlando todos
+            los aspectos de su privacidad y su identidad.
+          </p>
+        </div>
+        <div><img src="img/devices.webp" alt="" /></div>
+      </article>
+
+      <div id="list-cards">
+        <article>
+          <img src="./img/info-1.svg" alt="" />
+          <h2>Seguridad integral en Internet</h2>
+          <p>
+            McAfee Total Protection va más allá de nuestro galardonado antivirus
+            con el fin de proporcionar una amplia gama de soluciones de
+            protección para mantener a salvo sus dispositivos, su privacidad y
+            su identidad.
+          </p>
+        </article>
+        <article>
+          <img src="./img/info-2.svg" alt="" />
+          <h2>Protección de privacidad en varios niveles</h2>
+          <p>
+            Vaya por delante de los ladrones de identidades digitales
+            protegiendo o destruyendo archivos confidenciales, eliminando
+            cookies y adoptando más medidas preventivas.
+          </p>
+        </article>
+        <article>
+          <img src="./img/info-3.svg" alt="" />
+          <h2>Seguridad que le permite ir más rápido</h2>
+          <p>
+            Atrás quedaron los días en que el antivirus ralentizaba el
+            rendimiento de su equipo. McAfee Total Protection cuenta con una
+            gran variedad de herramientas
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <hr />
+      <p>
+        McAfee, LiveSafe™, Total Protection™ y el logotipo de McAfee son marcas
+        comerciales o marcas comerciales registradas de McAfee, LLC. Empresas
+        filiales en Estados Unidos y en otros países. El resto de nombres y
+        marcas pueden considerarse propiedad de otros.
+      </p>
+      <p>
+        2821 Mission College Blvd., Santa Clara, CA 94054, California (EE. UU.)
+        (866) 622-3911 © 2019 McAfee, LLC. Reservados todos los derechos.
+      </p>
+      <hr />
+    </footer>
+
+    <div id="cookie-info">
+      <h3>Sobre les galetes d'aquest lloc</h3>
+      <p>
+        El nostre lloc web utilitza cookies i altres tecnologies per
+        personalitzar la seva experiència i comprendre com vostè i altres
+        visitants utilitzen el lloc. Per veure una llista completa de les
+        empreses que utilitzen aquestes cookies i altres tecnologies, i
+        confirmar-nos si es poden utilitzar o no en el seu dispositiu, accedeixi
+        a la nostra Eina de consentiment de cookies.
+      </p>
+      <p>
+        Quan accedeixi a la nostra pàgina web, les empreses enumerades en l'Eina
+        de consentiment de cookies utilitzaran cookies i altres tecnologies.
+        Consulti la nostra notificació sobre cookies per obtenir informació
+        addicional.
+      </p>
+
+      <div>
+        <button id="btn-aceptar-cookie" type="button">Aceptar</button>
+        <button id="btn-declinar-cookie" type="button">Declinar</button>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("btn-aceptar-cookie")
+        .addEventListener("click", function () {
+          document.getElementById("cookie-info").style.display = "none";
+        });
+
+      document
+        .getElementById("btn-declinar-cookie")
+        .addEventListener("click", function () {
+          document.getElementById("cookie-info").style.display = "none";
+        });
+    </script>
+  </body>
+</html>

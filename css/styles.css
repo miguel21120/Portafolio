@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* background:radial-gradient(circle, #2B0055 0%, orange 100%); */
+
+}
+
+
+
+
+
+
+.menu{
+    background-color: rgba(86, 86, 100, 0.075);
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    z-index: 1;
+}
+header img{
+    margin-left: 4em;
+    margin-top: 8px;
+position: fixed; 
+z-index: 2;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu ul{
+   float: left;
+    list-style: none; 
+    margin-left: 15em;
+    margin-top: 1em;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0 1em;
+    margin: 0.5em 5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a span{
+    font-size: 1.5em;
+}
+.proyecto{
+    background-color: white;
+    border-radius: 5em;
+    margin-left: 1em;
+}
+
+.proyecto a{
+    color: black;
+    font-style: oblique;
+}
+
+#contenedor{
+    background-image: url('../img/cabecera.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 41em;
+    position: fixed;
+    z-index: -99;
+}
+
+
+
+
+
+
+
+
+
+.primera{
+    padding-top: 4em;
+    display: flex;
+    text-align: center;
+   align-items: center;
+    background-color:rgba(42, 0, 85, 0.63);
+    background-size: cover;
+    height: 15em;
+    width: 100%;
+    z-index: -99;
+}
+
+.primera h2{
+    color: white;
+    margin-left: 9em;
+   margin-right: 9em;
+   font-weight: bold;
+}
+
+.primera span{
+    color: white;
+font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+.segunda{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:rgba(228, 226, 226, 0.808);
+    height: 41em;
+}
+.segunda h2{
+    position: absolute;
+    top: 17em;
+    padding: 6px;
+}
+
+.project-item {
+    align-self: center;
+    overflow: hidden;
+    position: relative;
+    width: 330px;
+    height: 250px;
+    margin: 3em;
+    
+  }
+  .project-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .info {
+    background: rgba(30, 29, 29, 0.9);
+    color: white;
+    font-family: "Comfortaa", serif;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+  .info button {
+    padding: 10px 10px;
+    width: 7em;
+    border: none;
+    background-color: rgba(42, 0, 85, 0.863);
+    border-radius: 15px;
+  }
+  .info a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .info p{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+
+
+  .tercera{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:rgba(42, 0, 85, 0.863);
+    height: 41em;
+}
+.tercera h2{
+    position: absolute;
+    top: 45em;
+    padding: 6px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cuarta{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:rgba(253, 253, 253, 0.863);
+    height: 50em;
+}
+
+.cuarta h2{
+    text-align: center;
+}
+
+
+.contact_form{	
+    width: 460px; 
+  height: auto;
+ 
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+  background-color: #fbfbfb00; 
+  padding-left: 30px; 
+}
+
+
+input{
+	background-color: rgba(255, 68, 0, 0.178) ;
+	width: 408px; 
+	height: 40px; 
+	border-radius: 10px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgba(42, 0, 85, 0.863);
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: rgba(255, 68, 0, 0.178) ;
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgba(42, 0, 85, 0.863);
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: rgba(42, 0, 85, 0.863);
+	border-color: rgba(42, 0, 85, 0.863);
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: rgba(42, 0, 85, 0.863);
+}
+
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+.cuarta input:focus{
+	outline:0;
+	border: 1px solid orangered ;
+}
+
+
+.cuarta textarea:focus{
+	outline:0;
+	border: 1px solid orangered ;
+}
+
+
+.derecho{
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    background-color: rgba(42, 0, 85, 0.863);
+    color: white;
+    font-weight: bold;
+    padding: 1em 0 0 0;
+}

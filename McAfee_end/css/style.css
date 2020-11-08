@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("open_sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", "Arial";
+  font-size: 14px;
+}
+/*Only dev */
+/*
+div, #banner, article, header, footer{
+    border:solid 3px #c70f0f;
+} */
+nav, main, footer {
+  width: 80%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+main {
+  width: 1100px;
+  text-align: center;
+}
+
+/* Header and navigation */
+/*--------------------------*/
+header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+nav {
+  line-height: 50px;
+  height: 50px;
+  display: flex;
+}
+nav > div {
+  width: 50%;
+}
+
+/* BANNER */
+/*--------------------------*/
+#banner {
+  background: url("../img/mcafee-total-protection.jpg") no-repeat top left;
+  background-attachment: fixed;
+  background-size: 100%;
+  padding-left: 50%;
+  text-align: left;
+  color: white;
+  margin-top: 50px;
+}
+#banner div {
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 500px;
+  /*https://cssgradient.io/*/
+  background: linear-gradient(
+    56deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 83%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding-left: 50px;
+}
+#banner h1 {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 500;
+}
+#banner .cover {
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+#banner .price {
+  font-size: 3.5rem;
+  line-height: 0px;
+}
+#banner .discount span {
+  text-decoration: line-through;
+}
+#banner .discount {
+  font-size: 1.5rem;
+}
+#banner .btn-comprar {
+  background-color: #ea1010;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  display: inline-block;
+  border-radius: 5px;
+}
+#banner .btn-comprar:hover {
+  transition: all 0.4s ease-in;
+  background-color: #7c1010;
+}
+#banner .comment {
+  font-size: 0.9rem;
+}
+
+/* Main article */
+/*--------------------------*/
+#main-article {
+  display: flex;
+  justify-content: center;
+}
+#main-article div {
+  width: 450px;
+  padding: 4rem 0;
+}
+#main-article .slogan-1 {
+  text-align: justify;
+}
+
+/* General article styles */
+/*--------------------------*/
+article h2 {
+  font-size: 1.75rem;
+  line-height: 35px;
+}
+article p {
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+/* Information card list */
+/*--------------------------*/
+#list-cards {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 0 2rem 0;
+}
+#list-cards article {
+  padding: 0 10px;
+  width: 33%;
+}
+/* Footer */
+/*--------------------------*/
+footer {
+  font: normal 0.9rem "Open Sans";
+  padding: 10px 10%;
+  background-color: #53565a;
+  color: seashell;
+}
+
+/* Cookies fixed panel*/
+/*--------------------------*/
+#cookie-info {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 10% 10px 10%;
+  background-color: white;
+  border: solid 1px #53565a;
+}
+#cookie-info p {
+  width: 80%;
+}
+#cookie-info button {
+  color: white;
+  padding: 10px 40px;
+  line-height: 40px;
+  font: bold 1.1rem "Open Sans", "Arial";
+  border: solid 1px black;
+  border-radius: 7px;
+  background-color: black;
+}
+#cookie-info button:hover {
+  color: yellow;
+  cursor: pointer;
+}
